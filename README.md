@@ -35,10 +35,10 @@ The core idea of using SVD for image compression is that we can decompose the im
 
 Your task is to complete the following functions in the provided script:
 
-    - (TODO) `load_image(image_path)`: This function should load the image from a file and return it as a NumPy array. You will need to use the `Pillow` library for this task. You can reuse the code from Lab 2.
-    - `image_compression_svd(image_np, rank)`: This function compresses an image by applying SVD separately to each color channel. It has been inplemented for you and will call `compress_channel_svd(channel_matrix, rank)` for single channel processing. 
-    - (TODO) `compress_channel_svd(channel_matrix, rank)`: This function applies SVD to compress a single image channel. It should return a compressed single channel image. (You may use NumPy functions for SVD computation.)
-    - `save_result(original_image_np, quantized_image_np, output_path)` This function has been provided for you. Once the original and compressed images are prepared, the function will save them side by side in a single image file.
+- (TODO) `load_image(image_path)`: This function should load the image from a file and return it as a NumPy array. You will need to use the `Pillow` library for this task. You can reuse the code from Lab 2.
+- `image_compression_svd(image_np, rank)`: This function compresses an image by applying SVD separately to each color channel. It has been inplemented for you and will call `compress_channel_svd(channel_matrix, rank)` for single channel processing. 
+- (TODO) `compress_channel_svd(channel_matrix, rank)`: This function applies SVD to compress a single image channel. It should return a compressed single channel image. (You may use NumPy functions for SVD computation.)
+- `save_result(original_image_np, quantized_image_np, output_path)` This function has been provided for you. Once the original and compressed images are prepared, the function will save them side by side in a single image file.
 
 ### Part 2: Testing Your Code with a Static Input
 
